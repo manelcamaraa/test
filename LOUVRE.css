@@ -1,0 +1,168 @@
+#DIV{
+    position: relative;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0px;
+    width: 109%;
+    border: solid;
+    background-color: rgb(189, 154, 15);
+    color: rgb(17, 17, 17);
+    
+}
+body{
+    background-image: url(louvree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: inline-block;
+}
+#img1{
+    width: 110%;
+    height: 300px;
+    
+}
+#div2{
+    display: inline-block;
+}
+.titre{
+    background-color: rgb(189, 154, 15);
+    color: rgb(17, 17, 17);
+    width: 80%;
+    font-size: 40px;
+}
+.p1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-shadow: mintcream;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+    font-size: 25px;
+    text-align:left;
+    top: 50%;
+    width: 1000px;
+    box-sizing: border-box;
+    padding: 70px;
+    background: cornsilk;
+    box-shadow: 0 15px 50px rgba(179, 119, 119, 0.2);
+    margin-left: 10px;
+}
+#p2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-weight: bold ;
+    font-size: 25px;
+    box-sizing: border-box;
+    background: inherit;
+    padding-left: 15px;
+    width: 800px;
+    color: rgb(6, 6, 7);
+    
+    
+}
+
+ul>li{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 0 0 0 15px;
+    
+    width: 480px;
+}
+#img3{
+    float: right;
+    width: 700px;
+    height: 480px;
+    margin-right: 50px;
+    
+}
+#p4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    background-color: ivory;
+}
+#h31{
+    font-weight: bold;
+    background-color:rgb(206, 206, 98);
+    width: 60%;
+    font-size: 20px;
+}
+#p5{
+    font-size: 20px;
+    width: 50%;
+    background: seashell;
+    box-sizing: border-box;
+    padding: 70px;
+    
+}
+#img4{
+    float: right;
+    width: 600px;
+    height: 300px;
+    margin-right: 100px;
+}
+#h32{
+    font-weight: bold;
+    background-color:rgb(206, 206, 98);
+    width: 100%;
+    position: relative;
+    font-size: 25px;
+    text-align: right;
+}
+.grecs{
+    width: 300px;
+    margin: 50px;
+}
+.oeuvre{
+    width: 450px;
+    margin: 30px;
+}
+footer{
+    background-image: url(footer.jpg);
+    width: 109%;
+    height: 300px;
+    position: absolute;
+    flex-shrink: 0;
+    border-top: 1px dashed rgb(238, 238, 238);
+   
+    color: rgb(240, 236, 236);
+}
+.foot1{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px;
+}
+nav ul{
+   
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    background-color: rgba(0, 0,0, 0.5);
+    text-align: center;
+    background-attachment: fixed;
+
+}
+nav li{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 160px;
+    height: 60px;
+    border-right: 1px solid #cccccc;
+    text-align: center;
+    line-height: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+nav li :hover{
+    background-color: rgb(211, 160, 6)
+    }
